@@ -1,6 +1,7 @@
 # Solicita al usuario una lista de números separados por espacios y muestra dos listas: una con los pares y otra con los impares.
-nums = map( int ,input("Dime numeros " \
-                "separados por espacios:").split())
+nums = list(map( int ,input("Dime numeros " \
+                "separados por espacios:").split()))
+
 
 pares = [n for n in nums if n % 2 == 0]
 impares = [n for n in nums if n % 2 != 0]
