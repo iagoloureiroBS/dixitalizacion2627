@@ -1,3 +1,4 @@
+# Implementa una calculadora que acepte dos números y una operación (+, -, *, /) introducidos por consola.
 n1 = int(input("Dime el primer num:"))
 n2 = int(input("Dime el segundo num:"))
 op = input("Escoge operación(+,-,*,/):")
